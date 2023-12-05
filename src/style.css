@@ -1,48 +1,94 @@
 body {
-    background-color:pink;
-    font-family: 'Roboto', sans-serif;
+  background-color: pink;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-    color: purple;
-    text-decoration: none;
+  color: purple;
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 1px solid purple;
+  padding: 0 0 10px 0;
 }
 
 .weather-app {
-    background-color: white;
-    margin: 35px auto;
-    max-width: 600px;
-    box-shadow: 0 2px 2px 0 papayawhip;
+  background-color: white;
+  margin: 35px auto;
+  max-width: 600px;
+  box-shadow: 0 30px 50px #41326414;
+  box-shadow: 0 2px 2px 0;
+  box-shadow: 0 30px 50px #41326414;
 
-
-    border-radius: 16px;
-    padding: 30px;
+  border-radius: 16px;
+  padding: 30px;
 }
 
 .search-form-input {
-    background: pink;
-    border: none;
-    padding: 20px;
-    border-radius: 16px;
-    width: 80%;
-    margin: 0 0 30px 0;
+  background: pink;
+  border: none;
+  padding: 20px;
+  border-radius: 16px;
+  width: 80%;
+  margin: 0 0 30px 0;
 }
 
 .search-form-button {
-    background: purple;
-    color: white;
-    border-radius: 16px;
-    border: none;
-    padding: 20px;
-    margin: 20px 0 30px 0;
+  background: purple;
+  color: white;
+  border-radius: 16px;
+  border: none;
+  padding: 20px;
+  margin: 20px 0 30px 0;
 }
 
-.weather-app-forecast-data-text {
-        color: rgba(0, 0, 0, 0.5);
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+}
 
+.weather-app-city {
+  margin: 0;
+  line-height: 38px;
+  font-size: 20px;
+}
+
+.weather-app-details {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+}
+
+.weather-app-details strong {
+  color: red;
+  font-weight: 425;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+  padding: 6px 7px 0 0;
+}
+
+.weather-app-temperature {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.weather-app-icon {
+    font-size: 38px;
+}
+
+.weather-app-unit {
+    padding: 7px 0 0 0;
+    font-size: 30px;
 }
 
 footer {
-    margin: 30px 0 0 0;
-    color: rgba(0, 0, 0, 0.5);
+  margin: 30px 0 0 0;
+  color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid purple;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
 }
