@@ -17,44 +17,53 @@
       <header>
         <!-- <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/995/original/logo.gif?1701776217" alt="She Codes logo" 
           width="30px"/> -->
-        <form class="weather-app-search">
+        <form class="weather-app-search" id="form">
           <input
             type="search"
             placeholder="Enter a city"
             class="search-form-input"
+            id="formInput"
           />
           <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
 
       <main>
-          
-            <div class="main">
-              <div class="weather-app-city">
-                <h1>Paris</h1>
-              </div>
-              <div class="weather-app-details">
-                <p>
-                  Tuesday 10:06, light intensity drizzle
-                  <br />
-                  Humidity: <strong>92%</strong> Wind: <strong>6.69km/h</strong>
-                </p>
-              </div>
-            </div>
-          
-          <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">☁️</div>
-            <div class="weather-app-temperature">7</div>
-            <div class="weather-app-unit">&deg;C</div>
+        <div class="main">
+          <div class="weather-app-city">
+            <h1 id="city">Paris</h1>
           </div>
+          <div class="weather-app-details">
+            <p>
+              Tuesday 10:06, light intensity drizzle
+              <br />
+              Humidity: <strong>92%</strong> Wind: <strong>6.69km/h</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="weather-app-temperature-container">
+          <div class="weather-app-icon">☁️</div>
+          <div class="weather-app-temperature">7</div>
+          <div class="weather-app-unit">&deg;C</div>
+        </div>
       </main>
 
       <footer>
         This project was coded by
-        <a href="https://github.com/annadowding" target="_blank">Anna Dowding</a> and is open-sourced on
-        <a href="#" target="_blank">GitHub</a> and
+        <a href="https://github.com/annadowding" target="_blank"
+          >Anna Dowding</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/annadowding/mycityweatherapp"
+          target="_blank"
+          >GitHub</a
+        >
+        and
         <a href="#" target="_blank">hosted on Netlify</a>
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
