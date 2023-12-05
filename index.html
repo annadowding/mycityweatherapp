@@ -3,32 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>My weather app</title>
   </head>
   <body>
-    <header>
-      <img src="#" alt="She Codes logo" />
-      <form action="">
-        <input type="search" placeholder="Enter a city" />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 10:06, light intensity drizzle
-          <br />
-          Humidity: 92%, Wind: 6.69km/h
-        </p>
-      </div>
-      <div>☁️7&deg;</div>
-    </main>
-    <footer>
-      This project was coded by <a href="#" target="_blank">Anna Dowding</a> and
-      is open-sourced on <a href="#" target="_blank">GitHub</a> and
-      <a href="#" target="_blank">hosted on Netlify</a>
-    </footer>
+    <div class="weather-app">
+        <header>
+          <!-- <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/995/original/logo.gif?1701776217" alt="She Codes logo" 
+          width="30px"/> -->
+          <form class="weather-app-search">
+            <input type="search" placeholder="Enter a city" class="search-form-input"/>
+            <input type="submit" value="search" class="search-form-button"/>
+          </form>
+        </header>
+        <main>
+          <div>
+            <h1>Paris</h1>
+            <div class="weather-app-forecast-data-text">
+                <p>
+                  Tuesday 10:06, light intensity drizzle
+                  <br />
+                  Humidity: 92%, Wind: 6.69km/h
+                </p>
+            </div>
+          </div>
+          <div>☁️7&deg;C</div>
+        </main>
+        <footer>
+          This project was coded by <a href="#" target="_blank">Anna Dowding</a> and
+          is open-sourced on <a href="#" target="_blank">GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </footer>
+    </div>
   </body>
 </html>
