@@ -37,15 +37,17 @@
           </div>
           <div class="weather-app-details">
             <p>
-              Tuesday 10:06, light intensity drizzle
+              <span id="time"></span>, <span id="description"></span>
               <br />
-              Humidity: <strong>92%</strong> Wind: <strong>6.69km/h</strong>
+              Humidity: <strong><span id="humidity"></span></strong> Wind:
+              <strong><span id="windspeed"></span></strong>
             </p>
           </div>
         </div>
 
         <div class="weather-app-temperature-container">
-          <div class="weather-app-icon">☁️</div>
+          <div id="icon">
+          </div>
           <div class="weather-app-temperature" id="temperature">7</div>
           <div class="weather-app-unit">&deg;C</div>
         </div>

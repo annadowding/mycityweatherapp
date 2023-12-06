@@ -73,6 +73,7 @@ main {
 .weather-app-temperature {
   font-size: 60px;
   font-weight: bold;
+  padding-top: 12px;
 }
 
 .weather-app-icon {
@@ -80,7 +81,7 @@ main {
 }
 
 .weather-app-unit {
-  padding: 7px 0 0 0;
+  padding: 15px 0 0 0;
   font-size: 30px;
 }
 
